@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <style>
+        /* Basic reset for clean margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar Layout */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px 30px;
+        }
+
+        /* Brand/Logo Styling */
+        .navbar-brand a {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* Navigation Links List */
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        /* Spacing between individual links */
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        /* Anchor Tag / Link Styling */
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for interactivity */
+        .nav-links a:hover {
+            background-color: #FFB5CO;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation Bar Landmark -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">MyWebsite</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+                                                                                                                 
